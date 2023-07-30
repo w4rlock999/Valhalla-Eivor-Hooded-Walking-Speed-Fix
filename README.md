@@ -3,7 +3,9 @@
 If you play Assassin's Creed Valhalla in PC with mouse and keyboard you must already know that Eivor walking speed when hooded is annoyingly slow.
 
 
-This project allows you to control a virtual joystick using mouse scroll events and button clicks. The virtual joystick's speed can be adjusted by scrolling up and down, and you can toggle between a specific speed value and a stop value using the 5th mouse button.
+This project allows you to control a virtual joystick using mouse scroll events and mouse button 5 clicks. The virtual joystick's speed can be adjusted by scrolling up and down, and you can toggle between a specific speed value and a stop value using the 5th mouse button.
+
+You can map the button to other mouse button, tho it will need a little, very very little programming skill, the easiest way would just to own a mouse with button 5.
 
 ## Prerequisites
 
@@ -38,8 +40,9 @@ Before running the script, make sure you have the following software installed o
 
 6. Now you can interact with the virtual joystick using your mouse:
 
-- Scroll up: The virtual joystick's speed will increase between 0.7 and 1.0.
-- Scroll down: The virtual joystick's speed will decrease between 0.7 and 1.0.
-- Mouse Button 5 (X2): Clicking this button will toggle between the current speed and the stop value.
+- Mouse Button 5 (X2): Clicking this button will toggle between walking (current speed) and stop.
+- Scroll up: The virtual joystick's speed will increase.
+- Scroll down: The virtual joystick's speed will decrease.
+
 
 6. To stop the script, press `Ctrl+C` in the command prompt.
